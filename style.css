@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.invite-card {
+  width: 300px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 6px 6px 12px #c1c1c1, -6px -6px 12px #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #a9a9a9;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: -2px;
+}
+
+.description {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: none;
+}
+
+.email-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.email-input {
+  padding: 8px;
+  border: none;
+  border-radius: 50px;
+  background-color: #ffffff;
+  font-size: 14px;
+  outline: none;
+  border: 1px solid #000;
+}
+.email-input:hover {
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  border: 1px solid #0044c2;
+}
+.email-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #fff;
+  border: 1px solid #c8c8c8;
+}
+.email-item:hover {
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  border: 1px solid #101959;
+  
+}
+
+.email-item span {
+  flex: 1;
+  margin-left: 12px;
+}
+
+.remove-email-btn {
+  background-color: transparent;
+  color: #000000;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #000;
+  height: 21px;
+  border-radius: 50px;
+  background: #ffffff;
+}
+
+.remove-email-btn:hover {
+  color: #ffffff;
+  border: 1px solid #fff;
+  background: #101959;
+}
+
+.add-email-btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 50px;
+  background-color: #101959;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px #c1c1c1, -2px -2px 4px #ffffff;
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.cancel-btn,
+.send-invites-btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 50px;
+  background-color: #101959;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px #c1c1c1, -2px -2px 4px #ffffff;
+  outline: none;
+}
+
+.send-invites-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.send-invites-btn i {
+  font-size: 16px;
+}
+
+
